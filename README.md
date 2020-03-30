@@ -30,7 +30,7 @@ https://github.com/ponchio/untrunc
 ## 使用
 ●`  cd /home/YourUserName/untrunc-master`进入到untrunc-master文件夹
 
-●`  ./untrunc /home/YourUserName/good.mp4 /home/YourUserName/bad.mp4`根目录下的good.mp4是用来做参照物的，最好和损坏的视频格式、分辨率、编码一致，然后bad.mp4就是你需要修复的视频文件
+●`  ./untrunc /home/YourUserName/good.mp4 /home/YourUserName/bad.mp4`根目录下的good.mp4是用来做参照物的，最好和损坏的视频格式、分辨率、编码一致，然后bad.mp4就是你需要修复的视频文件,最后命令结束后会生成文件名为bad.mp4_fixed.mp4的修复文件
 
 ●  wait and enjoy!
 
