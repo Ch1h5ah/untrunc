@@ -3,4 +3,5 @@
 https://github.com/ponchio/untrunc
 ## 安装（On Ubuntu16.04）
 ●`wget https://github.com/ponchio/untrunc/archive/master.zip`
+
 ●`unzip master.zip`
