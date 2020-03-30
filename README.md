@@ -9,7 +9,7 @@ https://github.com/ponchio/untrunc
 
 ●`  wget https://github.com/libav/libav/archive/v12.3.zip`下载libav库
 
-●`  mv -f /home/YourUserName/v12.3.zip /home/YourUserName/untrunc-master`这一步是把根目录下载的v12.3.zip移动到untrunc-master目录中，'YourUserName'是你装linux系统的时候设置的用户名，推荐使用绝对路径万无一失，相对路径存在不稳定性，包括后面编译也要用到绝对路径，别嫌麻烦，动手敲吧！
+●`  mv -f /home/YourUserName/v12.3.zip /home/YourUserName/untrunc-master`这一步是把根目录下载的v12.3.zip移动到untrunc-master目录中，'YourUserName'是你装linux系统的时候设置的用户名，推荐使用**绝对路径**万无一失，相对路径存在不稳定性，包括后面编译也要用到**绝对路径**，别嫌麻烦，动手敲吧！
 
 ●`  cd /home/YourUserName/untrunc-master`进入到untrunc-master目录
 
