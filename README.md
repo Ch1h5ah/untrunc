@@ -23,7 +23,7 @@ https://github.com/ponchio/untrunc
 
 ●`  apt-get install yasm`这条命令是针对上面编译命令的，如果你看到nasm/yasm not found的报错提示，请使用这条命令安装yasm再执行上面的make命令，没有请忽视这条命令
 
-●`  cd ..`返回上一级目录（一定要确保在/home/YourUserName/untrunc-master目录下）
+●`  cd ..`返回上一级目录（一定要确保在/home/YourUserName/untrunc-master目录下才能进行下面的编译操作）
 
 ●`  g++ -o untrunc -I./libav-12.3 /home/YourUserName/untrunc-master/file.cpp /home/YourUserName/untrunc-master/main.cpp /home/YourUserName/untrunc-master/track.cpp /home/YourUserName/untrunc-master/atom.cpp /home/YourUserName/untrunc-master/mp4.cpp -L./libav-12.3/libavformat -lavformat -L./libav-12.3/libavcodec -lavcodec -L./libav-12.3/libavresample -lavresample -L./libav-12.3/libavutil -lavutil -lpthread -lz -lbz2 -llzma -lX11 -lvdpau`
 
