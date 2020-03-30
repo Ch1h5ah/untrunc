@@ -26,5 +26,6 @@ https://github.com/ponchio/untrunc
 ●`  cd ..`返回上一级目录（一定要确保在/home/YourUserName/untrunc-master目录下）
 
 ●```
+
 g++ -o untrunc -I./libav-12.3 file.cpp main.cpp track.cpp atom.cpp mp4.cpp -L./libav-12.3/libavformat -lavformat -L./libav-12.3/libavcodec -lavcodec -L./libav-12.3/libavresample -lavresample -L./libav-12.3/libavutil -lavutil -lpthread -lz -lbz2 -llzma -lX11 -lvdpau
 ```
