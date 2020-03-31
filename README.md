@@ -27,7 +27,7 @@ https://github.com/ponchio/untrunc
 
 ●`  g++ -o untrunc -I./libav-12.3 /home/YourUserName/untrunc-master/file.cpp /home/YourUserName/untrunc-master/main.cpp /home/YourUserName/untrunc-master/track.cpp /home/YourUserName/untrunc-master/atom.cpp /home/YourUserName/untrunc-master/mp4.cpp -L./libav-12.3/libavformat -lavformat -L./libav-12.3/libavcodec -lavcodec -L./libav-12.3/libavresample -lavresample -L./libav-12.3/libavutil -lavutil -lpthread -lz -lbz2 -llzma -lX11 -lvdpau`
 
-**进入到最重要的环节了，我在安装的过程中就是在编译源码这一步出现好多问题从而走了不少弯路，比如相对路径报错提示文件不存在，这里需要修改成*绝对路径*的有5个后缀为cpp的文件，其次就是末尾的参数没有设置，作者默认参数只添加了-lpthread -lz，但是我在编译的时候几乎全都用到了。。。具体参数设置请到作者那里查看**
+**进入到最重要的环节了，我在安装的过程中就是在编译源码这一步出现好多问题从而走了不少弯路，比如相对路径报错提示文件不存在，这里需要修改成*绝对路径* 的有5个后缀为cpp的文件，其次就是末尾的参数没有设置，作者默认参数只添加了-lpthread -lz，但是我在编译的时候几乎全都用到了。。。具体参数设置请到作者那里查看**
 
 ## 使用
 ●`  cd /home/YourUserName/untrunc-master`进入到untrunc-master文件夹
