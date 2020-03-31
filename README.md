@@ -17,11 +17,11 @@ https://github.com/ponchio/untrunc
 
 ●`  cd /home/YourUserName/untrunc-master/libav-12.3`进入到libav-12.3目录
 
-●`  ./configure`配置文件
+●`  ./configure`检测配置文件
 
 ●`  make`编译
 
-●`  apt-get install yasm`这条命令是针对上面编译命令的，如果你看到nasm/yasm not found的报错提示，请使用这条命令安装yasm再执行上面的make命令，没有请忽视这条命令
+●`  apt-get install yasm`这条命令是针对上面编译命令的，如果你看到nasm/yasm not found的报错提示，请使用这条命令安装yasm再执行上面的make命令，没有请忽视这条命令,顺便说一句后面的g++命令也需要安装，方法如同
 
 ●`  cd ..`返回上一级目录（一定要确保在/home/YourUserName/untrunc-master目录下才能进行下面的编译操作）
 
