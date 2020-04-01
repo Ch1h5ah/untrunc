@@ -1,3 +1,41 @@
+# untrunc[dinazheli](#untrunc中文说明文档)
+Appreciating author's project to make my video repaired successfully：
+https://github.com/ponchio/untrunc
+## Installing（On ubuntu16.04）
+### Suggesting input`  sudo su` into administrator mode
+●`  wget https://github.com/ponchio/untrunc/archive/master.zip`download main program source code
+
+●`  unzip master.zip`unzip the source code
+
+●`  wget https://github.com/libav/libav/archive/v12.3.zip`download libav library
+
+●`  mv -f /home/YourUserName/v12.3.zip /home/YourUserName/untrunc-master`in this step,you had better move the libav library into the untrunc-master directory.the 'YourUserName' is what user-name you set when installing linux.bye the way,suggesting use the **absolute path** rather than relative path.
+
+●`  cd /home/YourUserName/untrunc-master`enter untrunc-master directory
+
+●`  unzip v12.3.zip`unzip the libav library
+
+●`  cd /home/YourUserName/untrunc-master/libav-12.3`enter libav-12.3 directory
+
+●`  ./configure`check out the config
+
+●`  make`compiling
+
+●`  apt-get install yasm`if you see the error like 'nasm/yasm not found',just install it and then make again. 
+
+●`  cd ..`return the previous directory and **make sure you are in '/home/YourUserName/untrunc-master' so that you would compile successfully in next step**.
+
+●`  g++ -o untrunc -I./libav-12.3 /home/YourUserName/untrunc-master/file.cpp /home/YourUserName/untrunc-master/main.cpp /home/YourUserName/untrunc-master/track.cpp /home/YourUserName/untrunc-master/atom.cpp /home/YourUserName/untrunc-master/mp4.cpp -L./libav-12.3/libavformat -lavformat -L./libav-12.3/libavcodec -lavcodec -L./libav-12.3/libavresample -lavresample -L./libav-12.3/libavutil -lavutil -lpthread -lz -lbz2 -llzma -lX11 -lvdpau`
+
+**in this step,you should look out three points.First,you need change the relative path of five cpp files to absolute path.Second,add '-L./libav-12.3/libavresample -lavresample' in command line.Third,add some flags like "-lbz2 -llzma -lX11 -lvdpau" as you need.**
+
+## How to use
+●`  cd /home/YourUserName/untrunc-master`enter the untrunc-master directory
+
+●`  ./untrunc /home/YourUserName/good.mp4 /home/YourUserName/bad.mp4`the 'bad.mp4' is what you need to fix,and the 'good.mp4' is reference which have the same or similar infomation compared with 'bad.mp4'.finally ,you will get a fixed mp4 file called 'bad.mp4_fixed.mp4' 
+
+●  wait and enjoy!
+
 # untrunc中文说明文档
 感谢作者提供的项目让我的视频起死回生：
 https://github.com/ponchio/untrunc
@@ -27,12 +65,12 @@ https://github.com/ponchio/untrunc
 
 ●`  g++ -o untrunc -I./libav-12.3 /home/YourUserName/untrunc-master/file.cpp /home/YourUserName/untrunc-master/main.cpp /home/YourUserName/untrunc-master/track.cpp /home/YourUserName/untrunc-master/atom.cpp /home/YourUserName/untrunc-master/mp4.cpp -L./libav-12.3/libavformat -lavformat -L./libav-12.3/libavcodec -lavcodec -L./libav-12.3/libavresample -lavresample -L./libav-12.3/libavutil -lavutil -lpthread -lz -lbz2 -llzma -lX11 -lvdpau`
 
-**进入到最重要的环节了，我在安装的过程中就是在编译源码这一步出现好多问题从而走了不少弯路，比如相对路径报错提示文件不存在，这里需要修改成*绝对路径* 的有5个后缀为cpp的文件，其次就是末尾的参数没有设置，作者默认参数只添加了-lpthread -lz，但是我在编译的时候几乎全都用到了。。。具体参数设置请到作者那里查看**
+**进入到最重要的环节了，我在安装的过程中就是在编译源码这一步出现好多问题从而走了不少弯路，比如相对路径报错提示文件不存在，这里需要修改成*绝对路径* 的有5个后缀为cpp的文件(file.cpp、main.cpp、track.cpp、atom.cpp、mp4.cpp)，另外还需要加上resample库（-L./libav-12.3/libavresample），作者原文代码是没有添加的，其次就是末尾的参数没有设置，作者默认参数只添加了-lpthread -lz，但是我在编译的时候几乎全都用到了。。。具体参数对应哪一种错误请到作者那里查看**
 
 ## 使用
 ●`  cd /home/YourUserName/untrunc-master`进入到untrunc-master文件夹
 
-●`  ./untrunc /home/YourUserName/good.mp4 /home/YourUserName/bad.mp4`根目录下的good.mp4是用来做参照物的，最好和损坏的视频格式、分辨率、编码一致，然后bad.mp4就是你需要修复的视频文件,最后命令结束后会生成文件名为bad.mp4_fixed.mp4的修复文件
+●`  ./untrunc /home/YourUserName/good.mp4 /home/YourUserName/bad.mp4`bad.mp4就是你需要修复的视频文件,good.mp4是用来做参照物的，最好和损坏的视频格式、分辨率、编码一致，最后命令结束后会生成文件名为bad.mp4_fixed.mp4的修复文件
 
 ●  wait and enjoy!
 
