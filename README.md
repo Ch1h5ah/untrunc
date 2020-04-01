@@ -1,6 +1,6 @@
-# untrunc
+# untrunc中文说明文档
 
-[中文说明请点击此处](untrunc中文说明文档)
+[中文说明文档请点击此处](#1)
 
 Appreciating author's project to make my video repaired successfully：
 https://github.com/ponchio/untrunc
@@ -39,7 +39,7 @@ https://github.com/ponchio/untrunc
 
 ●  wait and enjoy!
 
-# untrunc中文说明文档
+<h1 id="1">untrunc中文说明文档</h1>
 感谢作者提供的项目让我的视频起死回生：
 https://github.com/ponchio/untrunc
 ## 安装（On ubuntu16.04）
