@@ -1,6 +1,8 @@
 # Introduction to untrunc
 
-[中文说明文档请点击此处](#1)[推荐另外一个作者的版本，安装更简洁](#2)
+[中文说明文档请点击此处](#1)
+
+[推荐另外一个作者的版本，安装更简洁](#2)
 
 Appreciating author's project to make my video repaired successfully：
 https://github.com/ponchio/untrunc
