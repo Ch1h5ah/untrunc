@@ -84,6 +84,8 @@ https://github.com/ponchio/untrunc
 https://github.com/anthwlock/untrunc
 ## 安装（On ubuntu16.04）
 ### 推荐先在终端敲上`  sudo su`的命令进入管理员模式
+●`  apt-get install libavformat-dev libavcodec-dev libavutil-dev`安装libav库
+
 ●`  wget https://github.com/anthwlock/untrunc/archive/master.zip`下载主程序源码
 
 ●`  unzip master.zip`解压源码
@@ -97,4 +99,6 @@ https://github.com/anthwlock/untrunc
 ## 使用
 ●`  cd untrunc-master`进入到untrunc-master文件夹
 
-●`  ./untrunc /home/YourUserName/good.mp4 /home/YourUserName/bad.mp4`可参考第一种方法
+●`  ./untrunc /home/YourUserName/good.mp4 /home/YourUserName/bad.mp4`bad.mp4就是你需要修复的视频文件,good.mp4是用来做参照物的，最好和损坏的视频格式、分辨率、编码一致，最后命令结束后会生成文件名为bad.mp4_fixed.mp4的修复文件
+
+●  wait and enjoy!
