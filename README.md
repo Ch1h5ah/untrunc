@@ -1,6 +1,6 @@
 # Introduction to untrunc
 
-[中文说明文档请点击此处](#1)
+[中文说明文档请点击此处](#1)[推荐另外一个作者的版本，安装更简洁](#2)
 
 Appreciating author's project to make my video repaired successfully：
 https://github.com/ponchio/untrunc
@@ -78,4 +78,23 @@ https://github.com/ponchio/untrunc
 
 ●  wait and enjoy!
 
+<h1 id="2">另外一个版本</h1>
 
+作者：
+https://github.com/anthwlock/untrunc
+## 安装（On ubuntu16.04）
+### 推荐先在终端敲上`  sudo su`的命令进入管理员模式
+●`  wget https://github.com/anthwlock/untrunc/archive/master.zip`下载主程序源码
+
+●`  unzip master.zip`解压源码
+
+●`  cd untrunc-master`进入到untrunc-master目录
+
+●`  make FF_VER=3.3.9`编译
+
+●`  cp untrunc /usr/local/bin`设置环境变量
+
+## 使用
+●`  cd untrunc-master`进入到untrunc-master文件夹
+
+●`  ./untrunc /home/YourUserName/good.mp4 /home/YourUserName/bad.mp4`可参考第一种方法
