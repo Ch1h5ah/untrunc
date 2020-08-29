@@ -63,8 +63,8 @@ https://github.com/ponchio/untrunc
 
 ●`  make`编译
 
-●`  apt-get install yasm`<h5 id="3">这条命令是针对上面两条命令的，如果你看到nasm/yasm not found的报错提示（你甚至会在apt-get上面折腾好半天，关键词：sudo gedit /etc/apt/sources.list、阿里镜像源、sudo rm /var/lib/apt/lists/lock，跟着报错提示自行百度或者谷歌即可），请使用这条命令安装yasm再执行上面的make命令，没有请忽视这条命令,顺便说一句后面的g++命令也需要安装，方法如同
-</h5>
+●`  apt-get install yasm`这条命令是针对上面两条命令的，如果你看到nasm/yasm not found的报错提示（你甚至会在apt-get上面折腾好半天，关键词：sudo gedit /etc/apt/sources.list、阿里镜像源、sudo rm /var/lib/apt/lists/lock，跟着报错提示自行百度或者谷歌即可），请使用这条命令安装yasm再执行上面的make命令，没有请忽视这条命令,顺便说一句后面的g++命令也需要安装，方法如同
+
 ●`  cd ..`返回上一级目录（一定要确保在/home/YourUserName/untrunc-master目录下才能进行下面的编译操作）
 
 ●`  g++ -o untrunc -I./libav-12.3 /home/YourUserName/untrunc-master/file.cpp /home/YourUserName/untrunc-master/main.cpp /home/YourUserName/untrunc-master/track.cpp /home/YourUserName/untrunc-master/atom.cpp /home/YourUserName/untrunc-master/mp4.cpp -L./libav-12.3/libavformat -lavformat -L./libav-12.3/libavcodec -lavcodec -L./libav-12.3/libavresample -lavresample -L./libav-12.3/libavutil -lavutil -lpthread -lz -lbz2 -llzma -lX11 -lvdpau`
@@ -81,7 +81,7 @@ https://github.com/ponchio/untrunc
 <h1 id="2">另外一个版本</h1>
 
 作者：
-https://github.com/anthwlock/untrunc | 安装过程中出错异常请参考[第一种方法](#3)
+https://github.com/anthwlock/untrunc | 安装过程中出错异常请参考[第一种方法](#1)
 ## 安装（On ubuntu16.04）
 ### 推荐先在终端敲上`  sudo su`的命令进入管理员模式
 ●`  apt-get install libavformat-dev libavcodec-dev libavutil-dev`安装libav库
