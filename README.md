@@ -63,7 +63,7 @@ https://github.com/ponchio/untrunc
 
 ●`  make`编译
 
-●`  apt-get install yasm`这条命令是针对上面编译命令的，如果你看到nasm/yasm not found的报错提示，请使用这条命令安装yasm再执行上面的make命令，没有请忽视这条命令,顺便说一句后面的g++命令也需要安装，方法如同
+●`  apt-get install yasm`这条命令是针对上面两条命令的，如果你看到nasm/yasm not found的报错提示（你甚至会在apt-get上面折腾好半天，关键词：sudo gedit /etc/apt/sources.list、阿里镜像源、sudo rm /var/lib/apt/lists/lock，跟着报错提示自行百度或者谷歌即可），请使用这条命令安装yasm再执行上面的make命令，没有请忽视这条命令,顺便说一句后面的g++命令也需要安装，方法如同
 
 ●`  cd ..`返回上一级目录（一定要确保在/home/YourUserName/untrunc-master目录下才能进行下面的编译操作）
 
