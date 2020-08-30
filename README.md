@@ -86,7 +86,7 @@ https://github.com/anthwlock/untrunc
 
 Windows用户只需点击这个链接，下载压缩包，解压后运行"untrunc-gui.exe"这个应用程序即可，如下图所示
 
-![1](https://github.com/Ch1hsah/shadowsocks-libev/blob/master/.png)
+![1](https://github.com/Ch1hsah/untrunc/blob/master/3DC501FC3654%7D.png)
 
 ## 安装（On ubuntu16.04）
 
