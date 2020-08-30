@@ -84,9 +84,9 @@ https://github.com/ponchio/untrunc
 https://github.com/anthwlock/untrunc
 ## Windows用户
 
-Windows用户只需点击这个链接，下载压缩包，解压后运行"untrunc-gui.exe"这个应用程序即可，如下图所示
+Windows用户只需点击[这个链接](https://github.com/anthwlock/untrunc/releases)，下载压缩包，解压后运行"untrunc-gui.exe"这个应用程序即可，如下图所示
 
-
+![untrunc-gui.exe](https://github.com/Ch1hsah/untrunc/blob/master/3DC501FC3654%7D.png)
 
 ## 安装（On ubuntu16.04）
 
