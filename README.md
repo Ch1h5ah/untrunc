@@ -88,7 +88,7 @@ Windows用户只需点击[这个链接](https://github.com/anthwlock/untrunc/rel
 
 ![untrunc-gui.exe](https://github.com/Ch1hsah/untrunc/blob/master/3DC501FC3654%7D.png)
 
-## 安装（On ubuntu16.04）
+## Linux用户
 
 安装过程中报错请参考[第一种方法](#1)
 ### 推荐先在终端敲上`  sudo su`的命令进入管理员模式
