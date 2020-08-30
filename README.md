@@ -1,6 +1,6 @@
 # Introduction to untrunc
 
-[~~中文说明文档请点击此处~~](#1) | [推荐另外一个作者的版本，安装更简洁，处理速度更快](#2)
+[~~中文说明文档请点击此处~~](#1) | [推荐另外一个作者的版本，安装更简洁，处理速度更快，并且支持Windows平台](#2)
 
 Appreciating author's project to make my video repaired successfully：
 https://github.com/ponchio/untrunc
@@ -81,8 +81,16 @@ https://github.com/ponchio/untrunc
 <h1 id="2">另外一个版本</h1>
 
 作者：
-https://github.com/anthwlock/untrunc | 安装过程中出错异常请参考[第一种方法](#1)
+https://github.com/anthwlock/untrunc
+## Windows用户
+
+Windows用户只需点击这个链接，下载压缩包，解压后运行"untrunc-gui.exe"这个应用程序即可，如下图所示
+
+![1](https://github.com/Ch1hsah/shadowsocks-libev/blob/master/1.png)
+
 ## 安装（On ubuntu16.04）
+
+安装过程中报错请参考[第一种方法](#1)
 ### 推荐先在终端敲上`  sudo su`的命令进入管理员模式
 ●`  apt-get install libavformat-dev libavcodec-dev libavutil-dev`安装libav库
 
