@@ -63,7 +63,7 @@ https://github.com/ponchio/untrunc
 
 ●`  make`编译
 
-●`  apt-get install yasm`这条命令是针对上面两条命令的，如果你看到nasm/yasm not found的报错提示（你甚至会在apt-get上面折腾好半天，关键词：sudo gedit /etc/apt/sources.list、阿里镜像源、sudo rm /var/lib/apt/lists/lock，跟着报错提示自行百度或者谷歌即可），请使用这条命令安装yasm再执行上面的make命令，没有请忽视这条命令,顺便说一句后面的g++命令也需要安装，方法如同
+●`  apt-get install yasm`这条命令是针对上面两条命令的，如果你看到nasm/yasm not found的报错提示，请使用这条命令安装yasm再执行上面的make命令（国内用户需要先更新软件源才能正常安装yasm，[见下文](#3)）
 
 ●`  cd ..`返回上一级目录（一定要确保在/home/YourUserName/untrunc-master目录下才能进行下面的编译操作）
 
@@ -88,11 +88,13 @@ Windows用户只需点击[这个链接](https://github.com/anthwlock/untrunc/rel
 
 ![untrunc-gui.exe](https://github.com/Ch1hsah/untrunc/blob/master/3DC501FC3654%7D.png)
 
-## Linux用户
+<h2 id="3">  Linux用户</h2>
 
-安装过程中报错请参考[第一种方法](#1)
+国内用户请参考[这篇文章](https://www.jianshu.com/p/9fddf6fea75d)先将软件源更新成最佳位置，后续出现“E：无法......”类似的错误请自行百度或者谷歌
 ### 推荐先在终端敲上`  sudo su`的命令进入管理员模式
-●`  apt-get install libavformat-dev libavcodec-dev libavutil-dev`安装libav库
+●`  apt update`更新apt
+
+●`  apt-get install yasm`安装yasm
 
 ●`  wget https://github.com/anthwlock/untrunc/archive/master.zip`下载主程序源码
 
@@ -101,8 +103,6 @@ Windows用户只需点击[这个链接](https://github.com/anthwlock/untrunc/rel
 ●`  cd untrunc-master`进入到untrunc-master目录
 
 ●`  make FF_VER=3.3.9`编译
-
-●`  cp untrunc /usr/local/bin`设置环境变量
 
 ## 使用
 ●`  cd untrunc-master`进入到untrunc-master文件夹
