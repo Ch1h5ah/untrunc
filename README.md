@@ -92,7 +92,7 @@ Windows用户只需点击[这个链接](https://github.com/anthwlock/untrunc/rel
 
 国内用户请参考下图先将软件源更新成最佳位置：
 
-![soft&update](https://www.jianshu.com/p/9fddf6fea75d)
+![soft&update](https://github.com/Ch1hsah/untrunc/blob/master/C4LOSPGNWT45.png)
 
 后续出现**“E：无法......”**类似的错误请自行百度或者谷歌
 ### 推荐先在终端敲上`  sudo su`的命令进入管理员模式
