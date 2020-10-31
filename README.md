@@ -24,7 +24,7 @@ https://github.com/ponchio/untrunc
 
 ●`  make`compiling
 
-●`  apt-get install yasm`if you see the error like 'nasm/yasm not found',just install it and then make again. 
+●`  apt install yasm`if you see the error like 'nasm/yasm not found',just install it and then make again. 
 
 ●`  cd ..`return the previous directory and **make sure you are in '/home/YourUserName/untrunc-master' so that you would compile successfully in next step**.
 
@@ -63,7 +63,7 @@ https://github.com/ponchio/untrunc
 
 ●`  make`编译
 
-●`  apt-get install yasm`这条命令是针对上面两条命令的，如果你看到nasm/yasm not found的报错提示，请使用这条命令安装yasm再执行上面的make命令（国内用户需要先更新软件源才能正常安装yasm，[见下文](#3)）
+●`  apt install yasm`这条命令是针对上面两条命令的，如果你看到nasm/yasm not found的报错提示，请使用这条命令安装yasm再执行上面的make命令（国内用户需要先更新软件源才能正常安装yasm，[见下文](#3)）
 
 ●`  cd ..`返回上一级目录（一定要确保在/home/YourUserName/untrunc-master目录下才能进行下面的编译操作）
 
@@ -103,7 +103,7 @@ Windows用户只需点击[这个链接](https://github.com/anthwlock/untrunc/rel
 ### 推荐先在终端敲上`  sudo su`的命令进入管理员模式
 ●`  apt update`更新apt
 
-●`  apt-get install yasm`安装yasm
+●`  apt install yasm`安装yasm
 
 ●`  wget https://github.com/anthwlock/untrunc/archive/master.zip`下载主程序源码
 
