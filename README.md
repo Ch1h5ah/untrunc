@@ -86,13 +86,13 @@ https://github.com/anthwlock/untrunc
 
 Windows用户只需点击[这个链接](https://github.com/anthwlock/untrunc/releases)，下载压缩包，解压后运行"untrunc-gui.exe"这个应用程序即可，如下图所示
 
-![untrunc-gui.exe](https://github.com/Ch1hsah/untrunc/blob/master/3DC501FC3654%7D.png)
+![untrunc-gui.exe](img/3DC501FC3654%7D.png)
 
 <h2 id="3">  Linux用户</h2>
 
 国内用户请参考下图先将软件源更新成最佳位置：
 
-![soft&update](https://github.com/Ch1hsah/untrunc/blob/master/C4LOSPGNWT45.png)
+![soft&update](img/C4LOSPGNWT45.png)
 
 后续出现
 ```
