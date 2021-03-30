@@ -91,7 +91,7 @@ Appreciating author's project to make my video repaired successfully：https://g
 
 Windows用户只需点击[这个链接](https://github.com/anthwlock/untrunc/releases)，下载压缩包，解压后运行"untrunc-gui.exe"这个应用程序即可，如下图所示
 
-![untrunc-gui](img/untrunc-gui.png)
+![untrunc-gui](img/untrunc-gui.exe.png)
 
 左侧good.mp4是用来做参照物的，最好和损坏的视频格式、分辨率、编码一致，右侧bad.mp4就是你需要修复的视频文件,点击Repair进行修复，最后会生成文件名为bad.mp4_fixed.mp4的修复文件（注意避免出现中文路径）
 
