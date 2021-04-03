@@ -30,7 +30,9 @@ Appreciating author's project to make my video repaired successfully：https://g
 
 ●`  cd ..`back to the previous directory and **make sure you are in '/home/YourUserName/untrunc-master' so that you would compile successfully in next step**.
 
-●`  g++ -o untrunc -I./libav-12.3 file.cpp main.cpp track.cpp atom.cpp codec_*.cpp codecstats.cpp codec.cpp mp4.cpp log.cpp -L./libav-12.3/libavformat -lavformat -L./libav-12.3/libavcodec -lavcodec -L./libav-12.3/libavresample -lavresample -L./libav-12.3/libavutil -lavutil -lpthread`delete '**-lz**' in command line if you see such error like '**ld returned 1 exit status**'
+●`  g++ -o untrunc -I./libav-12.3 file.cpp main.cpp track.cpp atom.cpp codec_*.cpp codecstats.cpp codec.cpp mp4.cpp log.cpp -L./libav-12.3/libavformat -lavformat -L./libav-12.3/libavcodec -lavcodec -L./libav-12.3/libavresample -lavresample -L./libav-12.3/libavutil -lavutil -lpthread`
+
+delete '**-lz**' in command line if you see such error like '**ld returned 1 exit status**'
 
 ### How to use
 ●`  cd /home/YourUserName/untrunc-master`change directory to untrunc-master
