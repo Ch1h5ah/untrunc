@@ -6,8 +6,6 @@ Appreciating author's project to make my video repaired successfully：https://g
 ### Installing（On Ubuntu 20.04.2.0 LTS）
 ●`  sudo su`into a root environment
 
-●`  apt upgrade`upgrade apt
-
 ●`  apt install yasm make gcc g++`install yasm,etc. as you need
 
 ●`  wget https://github.com/ponchio/untrunc/archive/refs/heads/master.zip`download main program source code
@@ -47,7 +45,7 @@ delete '**-lz**' in command line if you see such error like '**ld returned 1 exi
 ### 安装（On Ubuntu 20.04.2.0 LTS）
 ●`  sudo su`进入管理员模式
 
-●`  apt upgrade`更新apt
+●`  apt update`更新apt源
 
 ●`  apt install yasm make gcc g++`安装这四个组件（当前系统版本是没有预装这四个组件的，老版本系统也建议检查一遍，以免后面编译报错。国内用户需要先更新软件源才能正常安装，[见下文](#3)）
 
@@ -106,7 +104,7 @@ Windows用户只需点击[这个链接](https://github.com/anthwlock/untrunc/rel
 ### 安装（On Ubuntu 20.04.2.0 LTS）
 ●`  sudo su`进入管理员模式
 
-●`  apt upgrade`更新apt
+●`  apt update`更新apt源
 
 ●`  apt install yasm make gcc g++`安装这四个组件（当前系统版本是没有预装这四个组件的，老版本系统也建议检查一遍，以免后面编译报错）
 
