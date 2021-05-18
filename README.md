@@ -33,7 +33,7 @@ Appreciating author's project to make my video repaired successfully：https://g
 delete '**-lz**' in command line if you see such error like '**ld returned 1 exit status**'
 
 ### How to use
-●`  cd /home/YourUserName/untrunc-master`change directory to untrunc-master
+●`  cd /home/YourUserName/untrunc-master`change directory to /untrunc-master/
 
 ●`  ./untrunc /home/YourUserName/good.mp4 /home/YourUserName/bad.mp4`the 'bad.mp4' is what you need to restore,and the 'good.mp4' is reference which have the same or similar infomation compared with 'bad.mp4'.finally ,you will get a fixed mp4 file called 'bad.mp4_fixed.mp4' 
 
@@ -107,6 +107,8 @@ Windows用户只需点击[这个链接](https://github.com/anthwlock/untrunc/rel
 
 ## Linux用户
 
+<h6> 方案一</h6>
+
 从Ubuntu 20 开始，系统自带Snap应用商店，现在可以直接在Snap Store获取已经编译好的应用。
 
 ![untrunc-anthwlock](img/untrunc-anthwlock.png)
@@ -117,7 +119,7 @@ Windows用户只需点击[这个链接](https://github.com/anthwlock/untrunc/rel
 
 ●  wait and enjoy!
 
-<h3 id="3"> 本地安装（On Ubuntu 20.04.2.0 LTS）</h3>
+<h6 id="3"> 方案二</h6>
 
 国内用户请参考下图先将软件源更新成最佳位置：
 
