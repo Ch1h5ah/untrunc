@@ -107,7 +107,7 @@ Windows用户只需点击[这个链接](https://github.com/anthwlock/untrunc/rel
 
 ## Linux用户
 
-<h6> 方案一</h6>
+<h5> 方案一</h5>
 
 从Ubuntu 20 开始，系统自带Snap应用商店，现在可以直接在Snap Store获取已经编译好的应用。
 
@@ -115,11 +115,12 @@ Windows用户只需点击[这个链接](https://github.com/anthwlock/untrunc/rel
 
 ●`  sudo snap install --edge untrunc-anthwlock`安装已经编译好的应用
 
+### 使用
 ●`  untrunc-anthwlock -s /home/YourUserName/good.mp4 /home/YourUserName/bad.mp4`good.mp4是用来做参照物的，最好和损坏的视频格式、分辨率、编码一致，bad.mp4就是你需要修复的视频文件,最后命令结束后会生成文件名为bad.mp4_fixed.mp4的修复文件
 
 ●  wait and enjoy!
 
-<h6 id="3"> 方案二</h6>
+<h5 id="3"> 方案二</h5>
 
 国内用户请参考下图先将软件源更新成最佳位置：
 
