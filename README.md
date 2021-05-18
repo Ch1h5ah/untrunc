@@ -115,7 +115,6 @@ Windows用户只需点击[这个链接](https://github.com/anthwlock/untrunc/rel
 
 ●`  sudo snap install --edge untrunc-anthwlock`安装已经编译好的应用
 
-### 使用
 ●`  untrunc-anthwlock -s /home/YourUserName/good.mp4 /home/YourUserName/bad.mp4`good.mp4是用来做参照物的，最好和损坏的视频格式、分辨率、编码一致，bad.mp4就是你需要修复的视频文件,最后命令结束后会生成文件名为bad.mp4_fixed.mp4的修复文件
 
 ●  wait and enjoy!
