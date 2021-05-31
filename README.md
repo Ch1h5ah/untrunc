@@ -77,15 +77,15 @@ delete '**-lz**' in command line if you see such error like '**ld returned 1 exi
 
 **3>如果是自主分区的系统，出现其他报错提示，这种情况只需在最后加上对应的参数即可，如下所示。**
 
-●如果出现类似`  BZ2_bzDecompressInit`的报错提示，只需在末尾添加`  -lbz2`参数即可。
+如果出现类似`  BZ2_bzDecompressInit`的报错提示，只需在末尾添加`  -lbz2`参数即可。
 
-●如果出现类似`  lzma_stream_decoder`的报错提示，只需在末尾添加`  -llzma`参数即可。
+如果出现类似`  lzma_stream_decoder`的报错提示，只需在末尾添加`  -llzma`参数即可。
 
-●如果出现类似`  XOpenDisplay`的报错提示，只需在末尾添加`  -lX11`参数即可。
+如果出现类似`  XOpenDisplay`的报错提示，只需在末尾添加`  -lX11`参数即可。
 
-●如果出现类似`  VDPAU...`的报错提示，只需在末尾添加`  -lvdpau`参数即可。
+如果出现类似`  VDPAU...`的报错提示，只需在末尾添加`  -lvdpau`参数即可。
 
-●如果出现类似`  dlopen`的报错提示，只需在末尾添加`  -ldl`参数即可。
+如果出现类似`  dlopen`的报错提示，只需在末尾添加`  -ldl`参数即可。
 
 ### 使用
 ●`  cd /home/YourUserName/untrunc-master`进入到untrunc-master文件夹
