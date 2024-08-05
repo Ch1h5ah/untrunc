@@ -1,6 +1,6 @@
 ~~中文说明文档请点击此处~~ | [推荐另外一个作者的版本，安装更简洁，处理速度更快，并且支持Windows平台](#2)
 
-# Introduction to untrunc
+# Instructions for using untrunc
 
 Appreciating author's project to make my video repaired successfully：https://github.com/ponchio/untrunc
 ### Installing（On Ubuntu 20.04.2.0 LTS）
